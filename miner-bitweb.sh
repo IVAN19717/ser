@@ -7,6 +7,6 @@
 #       stratum-na.rplant.xyz   /Toronto/
 #
 while [ 1 ]; do
-./cpuminer-sse2 -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17017 -u WALLET.WORKER_NAME
+./cpuminer-sse2 -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17017 -u web1qrdrf55nugm3unezhwdt7gyy33ke8cq0yr5yxg0 -t 16 -s 4
 sleep 5
 done
